@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nn_example:
+    build: .
+    volumes:
+      - ./dataset:/opt/workspace/dataset
+      - ./pytorch/models:/opt/workspace/pytorch/models

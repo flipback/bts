@@ -1,0 +1,6 @@
+#
+*.mat
+*.jpeg
+/venv/
+/dataset/
+/pytorch/models/
